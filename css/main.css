@@ -140,22 +140,14 @@ img {
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
-  left: 50%;
+  left: 47%;
   width: 50px;
   margin-top: -25px;
 }
-.navbar-custom .avatar-container  .avatar-img-border {
-  width: 100%;
-  border-radius: 50%;
-  margin-left: -50%;
-  display: inline-block;
-  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .8);
-  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-}
+
 .navbar-custom .avatar-container  .avatar-img {
   width: 100%;
-  border-radius: 50%;
+  border-radius: 0%;
   display: block;
 }
 
@@ -169,15 +161,13 @@ img {
 
 @media only screen and (min-width: 768px) {
   .navbar-custom .avatar-container {
-    width: 100px;
-    margin-top: -50px;
+    width: 120px;
+    margin-top: -65px;
   }
   
   .navbar-custom .avatar-container  .avatar-img-border {
     width: 100%;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
-    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
-    -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
+  
   }
   
   .navbar-custom .avatar-container  .avatar-img {
@@ -368,6 +358,7 @@ footer .theme-by {
   padding: 100px 0;
   color: #FFF;
   text-shadow: 1px 1px 3px #000;
+
 }
 .intro-header .page-heading h1 {
   margin-top: 0;
@@ -376,11 +367,12 @@ footer .theme-by {
 .intro-header .post-heading h1 {
   margin-top: 0;
   font-size: 35px;
+
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
-  font-size: 27px;
-  line-height: 1.1;
+  font-size: 18px;
+  line-height: 2;
   display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -392,11 +384,13 @@ footer .theme-by {
 .intro-header.big-img .page-heading .page-subheading,
 .intro-header.big-img .post-heading .post-subheading {
   font-weight: 400;
+
 }
 .intro-header.big-img .page-heading hr {
   box-shadow: 1px 1px 3px #000;
   -webkit-box-shadow: 1px 1px 3px #000;
   -moz-box-shadow: 1px 1px 3px #000;
+   display: none;
 }
 .intro-header.big-img .post-heading .post-meta {
   color: #EEE;
@@ -421,10 +415,10 @@ footer .theme-by {
   }	
   .intro-header.big-img .page-heading,
   .intro-header.big-img .post-heading  {
-    padding: 150px 0;
+    padding: 250px 0;
   }  
   .intro-header .page-heading h1 {
-    font-size: 80px;
+    font-size: 40px;
   }
   .intro-header .post-heading h1 {
     font-size: 50px;

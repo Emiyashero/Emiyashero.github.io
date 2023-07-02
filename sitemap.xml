@@ -10,6 +10,24 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://emiyasher0.github.io/about/about.html</loc>
+    
+    <lastmod>2023-07-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://emiyasher0.github.io/tags/index.html</loc>
+    
+    <lastmod>2023-07-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   <url>
     <loc>https://emiyasher0.github.io/</loc>

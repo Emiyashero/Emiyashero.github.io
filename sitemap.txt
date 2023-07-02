@@ -1,2 +1,4 @@
 https://emiyasher0.github.io/2023/07/02/hello-world/
+https://emiyasher0.github.io/about/about.html
+https://emiyasher0.github.io/tags/index.html
 https://emiyasher0.github.io/
